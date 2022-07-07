@@ -7,6 +7,9 @@ type Props = {
 }
 const Home: React.FC<Props> = ({onClick}) => {
   const styled = css`
+
+    
+
     .contents {
         height: 100%;
         margin: 10% 15%;
@@ -101,21 +104,21 @@ const Home: React.FC<Props> = ({onClick}) => {
       <article className='product0'>
         <p>
         CRP만의 분석 프로그램을 이용해보세요</p><br/>
-        <p><a className="btn btn-secondary" href="/clothes/addCloth">바로가기 &raquo;</a></p>
+        <p><a className="btn btn-secondary" href="/analysis/anupload">바로가기 &raquo;</a></p>
       </article>
 
       <img src="piano3.jpg" height = {630} className="d-block w-100"/> <br/><br/><br/><br/>
       <article className='product1'>
         <p>
         CRP만의 표절 프로그램을 이용해보세요</p>
-        <p><a className="btn btn-secondary" href="/clothes/addCloth">바로가기 &raquo;</a></p>
+        <p><a className="btn btn-secondary" href="/plagiarism/upload">바로가기 &raquo;</a></p>
       </article>
 
       <img src="search.jpg" height = {630} className="d-block w-100"/> <br/><br/><br/><br/>
       <article className='product2'>
         <p>
         CRP만의 음악 추천 프로그램을 이용해보세요</p>
-        <p><a className="btn btn-secondary" href="/clothes/addCloth">바로가기 &raquo;</a></p>
+        <p><a className="btn btn-secondary" href="/music/musicPlay">바로가기 &raquo;</a></p>
       </article>
 
       <div>

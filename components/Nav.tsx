@@ -42,7 +42,7 @@ const Nav: React.FC = () => {
               전체 기능
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a className="dropdown-item" href="/plagiarism/upload">악보 표절 검사 프로그램</a></li>
+              <li><a className="dropdown-item" href="/plagiarism/select">표절 및 분석 프로그램</a></li>
               <li><a className="dropdown-item" href="/music/musicPlay">음원 검색</a></li>
               
             </ul>

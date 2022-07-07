@@ -4,9 +4,9 @@ import style from '@/styles/Float.module.css'
 const MusicPlay: React.FC = () => {
     return (
         <>
-        <a href="/music/musicSearch" style={{textDecoration:"none", color: "black"}}>
+        <a href="/music/musicSearch" style={{textDecoration:"none", color: "black"}}><br/><br/><br/>
             <img src="https://static.thenounproject.com/png/1310897-200.png" style={{width:100+"px"}}/>
-        </a> <br/>
+        </a> <br/><br/><br/>
         <p>버튼을 누른 후 음악을 들려주세요.</p>
         <p>소음이 심한 경우 검색 결과 확인이 어려울 수 있습니다.</p>
         <div className="progress">

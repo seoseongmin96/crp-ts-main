@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
     return (
       <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6 }}>
         <Container maxWidth="lg">
-          <Typography variant="h6" align="center" gutterBottom>
+          <Typography variant="h6" align="center" gutterBottom >
           </Typography>
           <Typography
             variant="subtitle1"
@@ -57,4 +57,5 @@ const Footer: React.FC = () => {
       
     );
   }
+  
 export default Footer

@@ -5,7 +5,7 @@ import Link from "next/link";
 const fileTypes = ["JPG", "PNG", "GIF"];
 
 const Faq: React.FC = () => {
-    return(<>
+    return(<><br/><br/><br/>
         <div style={{width: 800+"px"}}>
             <form>
                 <div className="form-outline mb-4">

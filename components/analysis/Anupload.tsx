@@ -7,10 +7,10 @@ const fileTypes = ["JPG", "PNG", "GIF"];
 type Props = {
     onChange : (e: React.FormEvent<HTMLInputElement> | any ) => void
 }
-const Upload: React.FC<Props> = ({onChange}) => {
+const AnUpload: React.FC<Props> = ({onChange}) => {
     return (
         <div className={style.container}>
-            <form action="/plagiarism/result">
+            <form action="/analysis/analysis">
               <FileUploader onChange={onChange} name="file" types={fileTypes} /> <br/>
               <button type="submit" className={style.button}>악보 업로드</button>
             </form>
@@ -21,4 +21,4 @@ const Upload: React.FC<Props> = ({onChange}) => {
     );
 }
 
-export default Upload;
+export default AnUpload;
