@@ -121,52 +121,12 @@ const Home: React.FC<Props> = ({onClick}) => {
         <p><a className="btn btn-secondary" href="/music/musicPlay">바로가기 &raquo;</a></p>
       </article>
 
-      <div>
+    <div>
           <section className="mb-4">
             <h2 className="h1-responsive font-weight-bold text-center my-4">문의하기</h2>
             <p className="text-center w-responsive mx-auto mb-5">궁금한 사항은 문의를 주시면 친절하고 신속하게 답변 드리겠습니다.</p>
             <div className="row">
-                <div className="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="md-form mb-0">
-                                  <label htmlFor="name" className="">성명</label>
-                                  <input type="text" id="name" name="name" className="form-control"/>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="md-form mb-0">
-                                  <label htmlFor="email" className="">이메일</label>
-                                  <input type="text" id="email" name="email" className="form-control"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="md-form mb-0">
-                                  <label htmlFor="subject" className="">연락처</label>
-                                  <input type="text" id="subject" name="subject" className="form-control"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="md-form">
-                                  <label htmlFor="message">문의내용</label>
-                                  <textarea typeof="text" id="message" name="message" rows={2} className="form-control md-textarea"></textarea>
-                                </div>
-
-                            </div>
-                        </div>
-                    </form><br/>
-                    <div className="text-center text-md-left">
-                    <a className="btn btn dark">
-                        <Button onClick={onClick}>제출하기</Button></a>
-                        
-                    </div>
-                    <div className="status"></div>
-                </div>
+              
                 <div className="col-md-3 text-center">
                     <ul className="list-unstyled mb-0">
                         <li><i className="fa fa-map-marker-alt fa"></i>

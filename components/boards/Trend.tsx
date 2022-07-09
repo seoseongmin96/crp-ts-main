@@ -13,4 +13,5 @@ const Trend = (props: Props) => {
   )
 }
 
-export default Trend
+export default Trend      
+
