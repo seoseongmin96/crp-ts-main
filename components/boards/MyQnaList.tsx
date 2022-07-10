@@ -18,3 +18,6 @@ const MyQnaList = (props: Props) => {
 }
 
 export default MyQnaList
+
+     
+
