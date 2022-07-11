@@ -20,3 +20,4 @@ export const useScript = (url: any, onload: any) => {
       };
     }, [url, onload]);
   };
+            

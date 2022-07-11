@@ -126,11 +126,11 @@ const Home: React.FC<Props> = ({onClick}) => {
             <h2 className="h1-responsive font-weight-bold text-center my-4">문의하기</h2>
             <p className="text-center w-responsive mx-auto mb-5">궁금한 사항은 문의를 주시면 친절하고 신속하게 답변 드리겠습니다.</p>
             <div className="row">
-              
+                
                 <div className="col-md-3 text-center">
                     <ul className="list-unstyled mb-0">
                         <li><i className="fa fa-map-marker-alt fa"></i>
-                            <p style={{fontSize: 15+"px"}}>서울특별시 강남구 819 3 삼오빌딩 8층 803호</p>
+                            <p  style={{fontSize: 15+"px"}}>서울특별시 강남구 819 3 삼오빌딩 8층 803호</p>
                         </li>
                         <li><i className="fa fa-phone mt-4 fa"></i>
                             <p>+ 01 234 567 89</p>
@@ -140,6 +140,7 @@ const Home: React.FC<Props> = ({onClick}) => {
                         </li>
                     </ul>
                 </div>
+  
             </div>
         </section>
     </div>
